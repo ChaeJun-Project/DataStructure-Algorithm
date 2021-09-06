@@ -1,3 +1,18 @@
 
 연결 리스트(Linked List)
-- 
+- 크기가 고정되어 있지 않음
+
+- 배열에 비해 보편적으로 삽입 및 삭제가 쉬움
+
+
+단순 연결 리스트(Singly Linked List)
+-
+
+
+원형 연결 리스트(Circular Linked List)
+- 한 노드에서 다른 모든 노드로 접근 가능
+
+
+이중 연결 리스트(Doubly Linked List)
+-
+

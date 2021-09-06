@@ -1,5 +1,8 @@
 #pragma once
 
+#define _CRTDBG_MAP_ALLOC
+#include <crtdbg.h>
+
 #include <iostream>
 #include <string>
 
@@ -19,3 +22,5 @@
 //DataStructure
 #include "DataStructure/Array/Array.h"
 #include "DataStructure/LinkedList/LinkedList.h""
+#include "DataStructure/Stack/Stack_Base_Array.h"
+#include "DataStructure/Stack/Stack_Base_LinkedList.h"

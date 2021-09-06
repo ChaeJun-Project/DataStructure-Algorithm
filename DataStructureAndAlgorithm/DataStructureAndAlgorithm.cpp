@@ -2,14 +2,13 @@
 
 int main()
 {
-	LinkedList list;
+	Stack_Base_LinkedList<int> stack("이중 연결 리스트기반 스택");
 
-	InitList(list);
+	for (int i = 0; i < 4; ++i)
+		stack.PushData(i);
 
-	for (int i = 0; i < 10; ++i)
-		InsertFrontNode(list, 10 + i);
+	stack.ReleaseDataStructure();
 
-	ReleaseList(list);
-
+	_CrtDumpMemoryLeaks();
 	return 0;
 }

@@ -68,11 +68,22 @@
     <ClInclude Include="DataStructure\LinkedList\LinkedList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="DataStructure\Queue\Queue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Stack\Stack_Base_Array.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Stack\Stack_Base_LinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Algorithm\Algorithm.txt" />
     <Text Include="DataStructure\DataStructure.txt" />
     <Text Include="DataStructure\Array\Array.txt" />
     <Text Include="DataStructure\LinkedList\LinkedList.txt" />
+    <Text Include="DataStructure\Stack\Stack.txt" />
+    <Text Include="DataStructure\Queue\Queue.txt" />
   </ItemGroup>
 </Project>
